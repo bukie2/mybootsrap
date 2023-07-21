@@ -1,0 +1,31 @@
+div{text-align: left;}
+/*small devices (landscape phones) */
+@media (min-width: 576px) { 
+    body{
+
+        background: red;
+    }
+    
+}
+/*medium devices (tablets) */
+@media (min-width:768px) {
+    body{
+
+        background:blue ;
+    }
+}
+/*large devices (desktop) */
+@media (min-width:992px) {
+    body{
+
+        background:green ;
+    }
+}
+/*extra large devices ( large desktops) */
+@media (min-width:1200px) {
+    body{
+        background: darkblue ;
+    }
+
+
+}
